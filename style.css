@@ -1,0 +1,63 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: monospace;
+  text-align: center;
+  background: linear-gradient(orange, gold);
+  background-attachment: fixed;
+}
+
+body,
+input[type="text"] {
+  font-size: 1em;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+td {
+  background: gold;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  text-align: left;
+  /* Nouveau style pour aligner le texte à gauche */
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.crossed {
+  text-decoration: line-through;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#logo {
+  margin: 20px 0;
+}
+
+#fill {
+  color: rgba(255, 255, 255, 0.5);
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 10%;
+  font-size: 1em;
+}
